@@ -1,6 +1,6 @@
 # Projet Portfolio : 🎵 Music Popularity Analysis / Analyse de la Popularité Musicale
 
-## English Version
+## English Version 🇬🇧
 
 ### Project Overview
 This project aims to **analyze the factors influencing the popularity of music tracks**. Using SQL and Python, we cleaned, structured, and explored the dataset to provide actionable insights for music analytics.
@@ -33,7 +33,7 @@ This project aims to **analyze the factors influencing the popularity of music t
 - Looker Studio: interactive dashboard
 
   
-### Dashboard
+### 🖼️ Dashboard
 - [Looker Studio](https://lookerstudio.google.com/reporting/03415171-2a3b-45ff-9916-5d20fb39c223/page/p_odhjmsb4vd)
 
 ### Limitations
@@ -42,7 +42,7 @@ This project aims to **analyze the factors influencing the popularity of music t
 
 ---
 
-## Version Française
+## Version Française 🇫🇷
 
 ### Présentation du Projet
 Ce projet a pour objectif **d’analyser les facteurs influençant la popularité des morceaux musicaux**. Avec SQL et Python, nous avons nettoyé, structuré et exploré le dataset pour fournir des insights exploitables pour l’analyse musicale.
@@ -74,7 +74,7 @@ Ce projet a pour objectif **d’analyser les facteurs influençant la popularit�
 - Python : analyse exploratoire, visualisation
 - Looker Studio : dashboard interactif [lien]
 
-### Dashboard
+### 🖼️Dashboard
 - [Looker Studio](https://lookerstudio.google.com/reporting/03415171-2a3b-45ff-9916-5d20fb39c223/page/p_odhjmsb4vd)
   
 
