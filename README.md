@@ -46,6 +46,18 @@ Tracks with higher danceability and energy tend to be slightly more popular. The
   
 ## 📊 Dashboard
 - [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
+  
+**Key Insights: Popularity vs Audio Features**  
+High popularity tracks tend to have higher danceability and energy, average tempo ~121 bpm.
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide4charts.png?raw=true)
+
+**Macro Genre Distribution Across Popularity Levels**  
+Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true)
+
+
+**Interactive Dashboard**  
+Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis - report (en)](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
 
 ### Limitations
 - Dataset lacks external variables (artist marketing, playlist placement)
@@ -96,7 +108,17 @@ Les morceaux avec plus de danceability et d’énergie tendent à être légère
 
 ## 📊 Dashboard
 - [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
-  
+
+**Insights clés : Popularité vs caractéristiques audio**
+Les morceaux très populaires ont tendance à avoir une **danceability** et une **énergie** plus élevées, tempo moyen ~121 bpm.  
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide4charts.png?raw=true)
+
+**Distribution des macro-genres selon les niveaux de popularité**
+Montre comment la **popularité varie selon les macro-genres**. Les segments de très haute popularité sont dominés par **Pop & Mainstream** et **Rock & Alternative**.  
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true)
+
+**Interactive Dashboard**  
+Explorez le dashboard ici: [Portfolio Audio Feature & Popularity Analysis - report (en)](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
 
 ### Limites
 - Dataset limité : absence de variables externes (marketing artiste, placement en playlist)
