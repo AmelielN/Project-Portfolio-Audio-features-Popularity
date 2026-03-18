@@ -45,7 +45,7 @@ Tracks with higher danceability and energy tend to be slightly more popular. The
 
   
 ## 📊 Dashboard
-- [Looker Studio](https://lookerstudio.google.com/reporting/03415171-2a3b-45ff-9916-5d20fb39c223/page/p_odhjmsb4vd)
+- [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
 
 ### Limitations
 - Dataset lacks external variables (artist marketing, playlist placement)
@@ -95,7 +95,7 @@ Les morceaux avec plus de danceability et d’énergie tendent à être légère
 
 
 ## 📊 Dashboard
-- [Looker Studio](https://lookerstudio.google.com/reporting/03415171-2a3b-45ff-9916-5d20fb39c223/page/p_odhjmsb4vd)
+- [Looker Studio](https://lookerstudio.google.com/reporting/67ab3195-1208-459e-9038-0c2320291e0d)
   
 
 ### Limites
