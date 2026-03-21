@@ -87,9 +87,9 @@ Quelle relation peut-on observer entre certaines caractéristiques audio, les ma
 - La catégorisation en macro-genres repose sur un regroupement analytique des genres existants
 
 **Lecture / recommandations**
-- Les audio features seules ne suffisent pas à expliquer la popularité
-- L’analyse est surtout utile pour faire émerger des tendances descriptives et comparer des segments
-- Pour aller plus loin, il faudrait intégrer des variables contextuelles ou de diffusion
+- Constat : les titres les plus populaires présentent certaines tendances communes, mais les écarts observés sur les audio features restent modérés. L’analyse est surtout utile pour faire émerger des tendances descriptives et comparer des segments
+- Implication : les caractéristiques audio seules ne permettent pas d’expliquer pleinement la popularité d’un titre.
+- Action / piste : enrichir l’analyse avec des variables externes comme la visibilité, la date de sortie, la présence en playlist ou la notoriété des artistes.
 
 ### Dataset
 - Source : [Spotify Dataset enrichi](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
@@ -106,15 +106,18 @@ Le score de “popularité” fourni par Spotify reflète surtout le **nombre de
   - Catégories de durée
   - Indicateurs binaires d’ambiance
   - Segments de popularité (1. Non Popular → 5. Very High Popularity)
+  - Création d'une segmentation "macro-genres"
+
+Ces transformations ont permis de passer d’un dataset brut à une structure plus lisible pour l’analyse comparative et la visualisation.
 
 ## Analyse & Insights Clés
 Comparaison des morceaux **les moins populaires vs les plus populaires** :
 
-| Variable      | Non Populaire | Très Populaire | % Différence |
-|---------------|---------------|----------------|--------------|
-| Danceability  | 0.578         | 0.599          | +3.48%       |
-| Energy        | 0.591         | 0.642          | +8.56%       |
-| Tempo         | 119.56        | 120.60         | +0.86%       |
+| Variable      | Non Populaire | Très Populaire | % Variation relative |
+|---------------|---------------|----------------|----------------------|
+| Danceability  | 0.578         | 0.599          | +3.48%               |
+| Energy        | 0.591         | 0.642          | +8.56%               |
+| Tempo         | 119.56        | 120.60         | +0.86%               |
 
 **🎯 Insight pratique / décisionnel :**  
 Les morceaux avec plus de danceability et d’énergie tendent à être légèrement plus populaires. Ces insights peuvent **informer la création de playlists, la stratégie marketing ou les recommandations musicales**, montrant la capacité à relier données → décision.
