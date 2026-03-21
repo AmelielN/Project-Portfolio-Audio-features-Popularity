@@ -71,6 +71,25 @@ Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis 
 ## Présentation du Projet
 Ce projet a pour objectif **d’analyser les facteurs influençant la popularité des morceaux musicaux**. Avec SQL et Python, nous avons nettoyé, structuré et exploré le dataset pour fournir des insights exploitables pour l’analyse musicale et la prise de décision.
 
+## Résumé du projet
+**Question d’analyse**
+Quelle relation peut-on observer entre certaines caractéristiques audio, les macro-genres et la popularité des titres Spotify ?
+
+**Indicateurs suivis**
+- Popularité des titres
+- Segments de popularité
+- Danceability, energy, tempo, valence
+- Répartition par macro-genre
+  
+**Points de vigilance sur les données**
+- La popularité Spotify est un indicateur spécifique à la plateforme
+- Les audio features n’intègrent pas les facteurs externes de succès (marketing, visibilité, notoriété, playlists, temporalité)
+- La catégorisation en macro-genres repose sur un regroupement analytique des genres existants
+
+**Lecture / recommandations**
+- Les audio features seules ne suffisent pas à expliquer la popularité
+- L’analyse est surtout utile pour faire émerger des tendances descriptives et comparer des segments
+- Pour aller plus loin, il faudrait intégrer des variables contextuelles ou de diffusion
 
 ### Dataset
 - Source : [Spotify Dataset enrichi](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
@@ -124,3 +143,6 @@ Explorez le dashboard ici: [Portfolio Audio Feature & Popularity Analysis - repo
 - Dataset limité : absence de variables externes (marketing artiste, placement en playlist)
 - Les caractéristiques audio seules ne suffisent pas à prédire la popularité
 - Corrélation ≠ causalité
+
+
+
