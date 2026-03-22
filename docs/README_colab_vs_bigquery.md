@@ -1,7 +1,7 @@
 # Workflow & Data Storage 🚀
 
 Pour ce projet, les datasets bruts (Spotify, Billboard, HuggingFace) ont été initialement explorés et nettoyés dans un notebook Colab.  
-En raison de la taille des données (~90k+ lignes) et pour faciliter la collaboration, toutes les tables finales et transformations SQL ont été centralisées dans **Google BigQuery**.  
+En raison de la taille des données (~90k lignes) et pour faciliter la collaboration, toutes les tables finales et transformations SQL ont été centralisées dans **Google BigQuery**.  
 
 **Avantages :**  
 - 📂 Gestion centralisée des données pour l'équipe  
@@ -9,13 +9,13 @@ En raison de la taille des données (~90k+ lignes) et pour faciliter la collabor
 - 🤝 Facilité de partage et de collaboration  
 
 **Contenu :**  
-- `notebooks/` : notebooks Colab pour nettoyage, exploration et visualisation  
-    - Exemples : `01_data_cleaning_eda.ipynb` → load data, check nulls, duplicates, EDA, normalization  
-- `sql/` : scripts SQL pour création de tables, mapping macro-genre, calculs statistiques et agrégations  
+- `docs/` : notebook Colab pour nettoyage, exploration et visualisation
+- `sql/` : scripts SQL pour création de tables, mapping macro-genre et agrégations
+-  `README.md` : documentation rapide du projet
 
 **Pour suivre le projet :**  
-1. 📖 Commencer par `notebooks/01_data_cleaning_eda.ipynb` pour comprendre le nettoyage et l’EDA  
-2. 💾 Les données nettoyées ont été exportées vers BigQuery (`track_genre`, `huggingface_cleaned`) pour effectuer transformations et analyses avancées  
+1. 📖 Commencer par `doc/01_data_cleaning_eda_clean.ipynb` pour comprendre le nettoyage et l’EDA  
+2. 💾 Les données nettoyées ont été exportées vers BigQuery (`df_cleaned`) pour effectuer transformations et analyses avancées  
 3. 📝 Les scripts SQL dans `sql/` montrent les transformations appliquées, comme le mapping des genres en macro-catégories et le calcul des segments de popularité  
 
 ### Données et anonymisation 🔒
