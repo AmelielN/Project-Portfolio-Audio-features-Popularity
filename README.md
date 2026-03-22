@@ -49,11 +49,11 @@ Tracks with higher danceability and energy tend to be slightly more popular. The
   
 **Key Insights: Popularity vs Audio Features**  
 High popularity tracks tend to have higher danceability and energy, average tempo ~121 bpm.
-![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide4charts.png?raw=true)
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png?raw=true)
 
 **Macro Genre Distribution Across Popularity Levels**  
 Shows how popularity varies by macro-genre. Pop & Mainstream, and Rock & Alternative dominate the Very High Popularity segment.
-![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/blob/slide3chart.png?raw=true)
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png?raw=true)
 
 
 **Interactive Dashboard**  
@@ -134,13 +134,11 @@ Les morceaux avec plus de danceability et d’énergie tendent à être légère
 
 **Insights clés : Popularité vs caractéristiques audio**
 Les morceaux très populaires ont tendance à avoir une **danceability** et une **énergie** plus élevées, tempo moyen ~121 bpm.  
-![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png)
+![Popularity vs Danceability & Energy](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide4charts.png?raw=true)
 
 **Distribution des macro-genres selon les niveaux de popularité**
 Montre comment la **popularité varie selon les macro-genres**. Les segments de très haute popularité sont dominés par **Pop & Mainstream** et **Rock & Alternative**.  
-![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true)
-![Macro Genre Distribution]([https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/slide3chart.png?raw=true](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png
-))
+![Macro Genre Distribution](https://github.com/AmelielN/Project-Portfolio-Audio-features-Popularity/blob/main/photos/slide3chart.png?raw=true)
 
 
 
