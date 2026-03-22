@@ -3,28 +3,25 @@
 ## English Version 🇬🇧
 
 ## Project Overview
-This project aims to **analyze the factors influencing the popularity of music tracks**. Using SQL and Python, we cleaned, structured, and explored the dataset to provide actionable insights for music analytics and decision-making.
+Analyze Spotify track data to understand what audio features relate to popularity. Focus: **cleaning, EDA, segmentation, feature comparison**.
 
 ### Dataset
 - Source: [Spotify Enriched Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
 - Size: 89,741 tracks
-- Features: audio metrics (tempo, danceability, energy), track details (genre, duration), and popularity score
-
+- Audio features: danceability, energy, valence, tempo, loudness, duration  
+- Popularity score → grouped into 5 segments  
   
 #### Note on Popularity Metric:
 The “popularity” score from Spotify reflects mainly the **number of streams** for each track ([Spotify API documentation](https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/)). For our analysis, we grouped tracks into **popularity buckets** to simplify comparisons.
 
 
-## Data Cleaning & Feature Engineering
-- Removed duplicates and irrelevant records
-- Standardized variable formats
-- Created new features:
-  - Track length categories
-  - Binary mood indicators
-  - Popularity segments (1. Non Popular → 5. Very High Popularity)
+### Key Skills / Tools
+- **SQL**: data cleaning, transformations, feature engineering  
+- **Python**: pandas, matplotlib, seaborn, EDA  
+- **Looker Studio**: dashboard visualization  
+- **Workflow**: Colab notebooks → BigQuery → dashboards  
 
-## Analysis & Key Insights
-We compared the features of tracks in the **lowest vs highest popularity buckets**:
+## Key Insights
 
 | Feature       | Non-Popular | High Popularity | % Difference |
 |---------------|------------|----------------|--------------|
@@ -32,16 +29,17 @@ We compared the features of tracks in the **lowest vs highest popularity buckets
 | Energy        | 0.591      | 0.642          | +8.56%       |
 | Tempo         | 119.56     | 120.60         | +0.86%       |
 
+> Popular tracks slightly higher in **danceability & energy**. Popularity driven by **combination of features**, not a single variable.
+
 **🎯 Practical / Business Insight:**  
 Tracks with higher danceability and energy tend to be slightly more popular. These insights could inform **playlist curation, marketing strategy, or music recommendation algorithms**, showing an understanding of data-driven decision-making.
 
-## Tools & Skills
-- SQL: data cleaning, transformation, feature creation
-- Python: exploratory analysis, visualization
-- Looker Studio: interactive dashboard
-- Segmented tracks by popularity
-- Compared features of popular vs non-popular tracks
-- Explored differences across genres and audio features
+
+### Workflow
+1. Data cleaning & normalization (remove duplicates, standardize artist/track names)  
+2. EDA: distributions, outliers, correlation analysis  
+3. Popularity segmentation & feature comparison  
+4. Visualizations → barplots, histograms, Looker Studio dashboard  
 
   
 ## 📊 Dashboard
@@ -64,12 +62,16 @@ Explore the full dashboard here: [Portfolio Audio Feature & Popularity Analysis 
 - Audio features alone cannot fully predict popularity
 - Correlation does not imply causation
 
+### Next Steps / Potential Impact
+- Predictive modeling of track popularity  
+- Clustering tracks by audio profile  
+- Insights for playlist curation or music recommendation  
 ---
 
 ## Version Française 🇫🇷
 
 ## Présentation du Projet
-Ce projet a pour objectif **d’analyser les facteurs influençant la popularité des morceaux musicaux**. Avec SQL et Python, nous avons nettoyé, structuré et exploré le dataset pour fournir des insights exploitables pour l’analyse musicale et la prise de décision.
+Analyse des données Spotify pour comprendre les facteurs de popularité des morceaux. Focus : **nettoyage, EDA, segmentation, comparaison des features**.
 C'est un projet pédagogique/académique: l’analyse montre que la popularité Spotify est faiblement corrélée aux features audio ; le but principal est de démontrer mes compétences SQL & Python pour le nettoyage et l’EDA.
 
 ## Résumé du projet
@@ -95,24 +97,22 @@ Quelle relation peut-on observer entre certaines caractéristiques audio, les ma
 ### Dataset
 - Source : [Spotify Dataset enrichi](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
 - Size: 89,741 tracks
-- Variables : métriques audio (tempo, danceability, energy), informations sur les morceaux (genre, durée) et score de popularité
+- Caractéristiques audio : danceability, energy, valence, tempo, loudness, duration  
+- Score de popularité → segmenté en 5 catégories
+
 
 #### Remarque sur le score de popularité :
 Le score de “popularité” fourni par Spotify reflète surtout le **nombre de streams** par morceau ([documentation Spotify API](https://developer.spotify.com/documentation/web-api/reference/tracks/get-track/)). Pour notre analyse, nous avons créé des **catégories de popularité** afin de faciliter les comparaisons.
 
-## Nettoyage & Création de Variables
-- Suppression des doublons et enregistrements inutiles
-- Standardisation des formats de variables
-- Création de nouvelles variables :
-  - Catégories de durée
-  - Indicateurs binaires d’ambiance
-  - Segments de popularité (1. Non Popular → 5. Very High Popularity)
-  - Création d'une segmentation "macro-genres"
+### Compétences / Outils
+- **SQL** : nettoyage, transformations, création de variables  
+- **Python** : pandas, matplotlib, seaborn, analyse exploratoire  
+- **Looker Studio** : dashboard interactif  
+- **Workflow** : notebooks Colab → BigQuery → dashboards  
 
 Ces transformations ont permis de passer d’un dataset brut à une structure plus lisible pour l’analyse comparative et la visualisation.
 
-## Analyse & Insights Clés
-Comparaison des morceaux **les moins populaires vs les plus populaires** :
+## Insights Clés
 
 | Variable      | Non Populaire | Très Populaire | % Variation relative |
 |---------------|---------------|----------------|----------------------|
@@ -120,13 +120,16 @@ Comparaison des morceaux **les moins populaires vs les plus populaires** :
 | Energy        | 0.591         | 0.642          | +8.56%               |
 | Tempo         | 119.56        | 120.60         | +0.86%               |
 
+> Les titres populaires sont légèrement **plus dansants et énergiques**. La popularité dépend d’une **combinaison de caractéristiques**, pas d’une seule.
+
 **🎯 Insight pratique / décisionnel :**  
 Les morceaux avec plus de danceability et d’énergie tendent à être légèrement plus populaires. Ces insights peuvent **informer la création de playlists, la stratégie marketing ou les recommandations musicales**, montrant la capacité à relier données → décision.
 
-## Outils & Compétences
-- SQL : nettoyage, transformation des données, création de variables, groupement par popularité, calcul des moyennes macro-genre
-- Python : analyse exploratoire, visualisation, normalisation des noms des artistes, enlevé les doublons
-- Looker Studio : dashboard interactif
+### Workflow
+1. Nettoyage & normalisation (doublons, standardisation noms artistes/morceaux)  
+2. EDA : distributions, outliers, corrélations  
+3. Segmentation par popularité & comparaison des features  
+4. Visualisations → barplots, histogrammes, Looker Studio  
 
 
 ## 📊 Dashboard
@@ -149,6 +152,11 @@ Explorez le dashboard ici: [Portfolio Audio Feature & Popularity Analysis - repo
 - Dataset limité : absence de variables externes (marketing artiste, placement en playlist)
 - Les caractéristiques audio seules ne suffisent pas à prédire la popularité
 - Corrélation ≠ causalité
+
+### Prochaines Étapes / Impact Potentiel
+- Modélisation prédictive de la popularité  
+- Clustering par profil audio  
+- Insights pour création de playlists ou recommandations musicales
 
 
 
